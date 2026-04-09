@@ -6,11 +6,13 @@ import StoryPage from "@/component/Story";
 import MissionCard from "@/component/MissionCard";
 import MessagePage from "@/component/Message-Section";
 import Team from "@/component/Team";
+import NavBar from "@/component/NavBar";
 
 export default function Home() {
   return (
     <div>
-      <Heropage />
+      {/* <Heropage /> */}
+      <NavBar />
       <main>
         <StoryPage />
         <MissionCard />
