@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/SmarkSarks%20Project/Figma-Code/design-landing-page/component/Footer.tsx"],"sourcesContent":["import React from \"react\";\r\nexport default function Footer() {\r\n  return (\r\n    <footer className=\"bg-red-900 text-white text-center py-10 text-sm\">\r\n      <div className=\"flex justify-center gap-6 mb-4\">\r\n        <span>About us</span>\r\n        <span>Service</span>\r\n        <span>Downloads</span>\r\n        <span>News</span>\r\n        <span>Contact</span>\r\n      </div>\r\n      <p>©2025 Digo Cooperative Ltd. All rights reserved</p>\r\n    </footer>\r\n  );\r\n}\r\n"],"names":["Footer","className"],"mappings":";;;;;;AACe,SAASA;IACtB,qBACE,8OAAC;QAAOC,WAAU;;0BAChB,8OAAC;gBAAIA,WAAU;;kCACb,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;;;;;;;0BAER,8OAAC;0BAAE;;;;;;;;;;;;AAGT"}}]
+}
