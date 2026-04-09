@@ -48,7 +48,7 @@ export default function Team() {
           </span>
         </button>
       </div>
-      <div className="grid grid-cols-3 w-lg px-10 py-6">
+      <div className="grid grid-cols-3 md:w-lg md:px-10 py-6">
         <div className="relative w-24 h-34 rounded-full overflow-hidden">
           <Image src={img1} alt="team1" fill className="object-cover" />
         </div>

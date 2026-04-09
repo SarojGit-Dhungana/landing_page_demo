@@ -1418,6 +1418,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:w-lg {
+      width: var(--container-lg);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -1462,6 +1468,12 @@
   @media (min-width: 48rem) {
     .md\:px-30 {
       padding-inline: calc(var(--spacing) * 30);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:py-6 {
+      padding-block: calc(var(--spacing) * 6);
     }
   }
 
