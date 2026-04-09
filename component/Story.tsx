@@ -15,26 +15,26 @@ export default function StoryPage() {
         </p>
       </div>
       <div className="grid md:grid-cols-2 gap-6 px-4 items-center -mt-5">
-        <div className="relative w-full h-75 md:h-100">
-          <div className="absolute top-2 right-2 md:top-12 md:right-1 text-center w-60 bg-red-900 text-white p-4 md:p-6 rounded-xl shadow-lg z-20">
+        <div className="relative w-full h-100 md:h-100 flex justify-center md:block py-10">
+          <div className="absolute top-2 right-1 md:top-12 md:right-1 text-center w-60 bg-red-900 text-white p-4 md:p-6 rounded-xl shadow-lg z-20 scale-90 md:scale-100">
             <p className="text-xl md:text-3xl font-semibold">85k+</p>
             <p className="text-sm md:text-base">Members</p>
           </div>
-          <div className="absolute bottom-8 text-center left-2 md:left-0 bg-red-900 w-60 text-white p-4 md:p-6 rounded-xl shadow-lg z-20">
+          <div className="absolute bottom-8 left-2 md:left-0 text-center w-60 bg-red-900 text-white p-4 md:p-6 rounded-xl shadow-lg z-20 scale-90 md:scale-100">
             <p className="text-xl md:text-3xl font-semibold">20 years</p>
             <p className="text-sm md:text-base">of building trust</p>
           </div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="relative w-[70%] h-35 md:w-[60%] md:h-52 rounded-xl overflow-hidden shadow-lg z-10 -mt-24">
+            <div className="relative w-[70%] h-35 md:w-[60%] md:h-52 rounded-xl overflow-hidden shadow-lg z-10 -mt-16 md:-mt-24">
               <Image src={img1} alt="team1" fill className="object-cover" />
             </div>
-            <div className="relative w-[70%] h-35 md:w-[60%] md:h-52 rounded-xl overflow-hidden shadow-xl z-20 mt-36 -ml-15 md:-ml-24">
+            <div className="relative w-[70%] h-35 mb-20 md:mb-0  md:w-[60%] md:h-52 rounded-xl overflow-hidden shadow-xl z-20 mt-24 md:mt-36 -ml-10 md:-ml-24">
               <Image src={img2} alt="team2" fill className="object-cover" />
             </div>
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <p className="text-gray-800 text-sm md:text-lg font-semibold max-w-xl text-center md:text-left">
+          <p className="text-gray-800 text-sm md:text-lg font-semibold max-w-xl text-center md:text-left px-2 md:px-0">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
             accusantium aperiam ipsam, optio voluptatem voluptatum officia
             cumque iusto deserunt, quidem enim hic quisquam amet. Voluptatibus,
