@@ -10,7 +10,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function Heropage() {
   return (
-    <section className="relative w-full min-h-[70vh] md:h-[60vh] overflow-hidden">
+    <section className="relative w-full min-h-[55vh] md:h-[60vh] overflow-hidden">
       <Image
         src={teamImage}
         alt="team-banner"

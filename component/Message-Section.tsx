@@ -32,7 +32,7 @@ export default function MessagePage() {
           className="
           relative px-8 md:px-10 py-1
           rounded-xl
-          border-2 border-red-700
+          border-4 border-red-900
           text-white font-semibold tracking-wide
           bg-transparent
           overflow-hidden
@@ -45,7 +45,7 @@ export default function MessagePage() {
           <span
             className="
             absolute bottom-0 right-0
-            w-10 h-10 bg-red-700
+            w-10 h-10 bg-red-900
             transition-all duration-300
             group-hover:w-full group-hover:h-80
             clip-triangle

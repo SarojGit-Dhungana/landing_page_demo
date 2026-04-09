@@ -13,7 +13,6 @@ export default function Team() {
         <h3 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 md:mb-8 text-red-900">
           MEET OUR TEAM
         </h3>
-
         <p className="text-gray-500 text-sm sm:text-base md:text-lg mb-6 md:mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
           molestias rerum reprehenderit asperiores ex aliquam dolorum nisi qui
@@ -27,12 +26,12 @@ export default function Team() {
           className="
           relative px-8 md:px-10 py-1
           rounded-xl
-          border-2 border-red-900
-          text-red-900 font-semibold tracking-wide
+          border-4 border-red-900
+          text-black font-semibold tracking-wide
           bg-transparent
           overflow-hidden
           transition-all duration-300 ease-out
-          hover:shadow-lg hover:shadow-red-900/30
+          hover:shadow-lg hover:shadow-red-700/30
           hover:-translate-y-1
           group
         "
@@ -42,11 +41,11 @@ export default function Team() {
             absolute bottom-0 right-0
             w-10 h-10 bg-red-900
             transition-all duration-300
-            group-hover:w-full group-hover:h-full
-            clip-triangle 
+            group-hover:w-full group-hover:h-80
+            clip-triangle
           "
           ></span>
-          <span className="relative z-10 font-semibold text-base sm:text-lg md:text-xl group-hover:text-white">
+          <span className="relative z-10 group-hover:text-white">
             View More
           </span>
         </button>
@@ -67,7 +66,7 @@ export default function Team() {
         </div>
         <div
           className="relative 
-        w-20 h-30 -mt-40 sm:-mt-44 md:-mt-52 -ml-6 rounded-full overflow-hidden"
+        w-20 h-40 -mt-40 sm:-mt-44 md:-mt-52 -ml-6 rounded-full overflow-hidden"
         >
           <Image src={per5} alt="team5" fill className="object-cover" />
         </div>

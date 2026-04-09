@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 const navLinks = [
   { label: "HOME", href: "/home" },
   { label: "ABOUT US", href: "/" },
@@ -45,12 +47,16 @@ export default function Header() {
           className="md:hidden text-gray-800"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          ☰
+          {menuOpen ? (
+            <CloseIcon fontSize="medium" />
+          ) : (
+            <MenuIcon className="medium" />
+          )}
         </button>
       </div>
-      
+
       {menuOpen && (
-        <div className="md:hidden bg-transparent px-6 py-4 space-y-4">
+        <div className="md:hidden bg-white grid grid-cols-1 shadow-2xl gap-1 px-6 py-2 space-y-3 mb-2">
           {navLinks.map((link) => (
             <Link
               key={link.href}
